@@ -21,6 +21,7 @@ public class App {
     static long[] LFSRandGenerateCompressing() {
         long res[] = new long[N];
         long s = 1;
+
         long s1, s2;
         int i = 0;
         while (i < N) {
